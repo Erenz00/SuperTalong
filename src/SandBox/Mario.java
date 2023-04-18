@@ -548,12 +548,12 @@ public class Mario extends GameObject {
             } else {
                 player.Speed(false);
             }
-            if (this.bsInput.isKeyDown(KeyEvent.VK_X)) {
+            if (this.bsInput.isKeyDown(KeyEvent.VK_SPACE)) {
                 if (!player.Water) {
                     player.Jump();
                 }
             }
-            if (this.bsInput.isKeyPressed(KeyEvent.VK_X)) {
+            if (this.bsInput.isKeyPressed(KeyEvent.VK_SPACE)) {
                 if (player.Water) {
                     player.Jump();
 
